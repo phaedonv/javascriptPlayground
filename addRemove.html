@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#neo").remove();
+    let append = $("<div></div>").text("hello friend");
+    $("body").append(append);
+    // $("div").remove();
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="neo" style="color:lime;height:120px;width:300px;border:1px solid black;background-color:black;padding:4.2px;">
+
+<p>Wake up NEO.</p>
+<p>The matrix has you..</p>
+<p>Knock, knock..</p>
+
+</div>
+<br>
+
+<button>Delete history</button>
+
+</body>
+</html>
